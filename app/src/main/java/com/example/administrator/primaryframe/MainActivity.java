@@ -20,6 +20,7 @@ import java.util.List;
 /**
  * 测试界面
  */
+
 public class MainActivity extends RequestBaseActivity {
     private Toolbar mToolbar;
     //轮播图
