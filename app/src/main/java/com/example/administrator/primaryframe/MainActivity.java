@@ -54,12 +54,14 @@ public class MainActivity extends RequestBaseActivity {
         mBanner.setBannerStyle(BannerConfig.CIRCLE_INDICATOR);
         mBanner.setBannerTitles(mTitleList);
         mBanner.start();
+
         mBanner.setOnBannerListener(new OnBannerListener() {
             @Override
             public void OnBannerClick(int position) {
                 ToastUtil.showToast("您点击了第"+(position+1)+"张");
             }
         });
+
         /**广告上下翻滚**/
         mViewFlipper = findViewById(R.id.viewFlipper);
         initFlipperData();
