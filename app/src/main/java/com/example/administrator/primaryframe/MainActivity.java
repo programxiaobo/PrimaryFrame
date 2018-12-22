@@ -16,7 +16,6 @@ import com.youth.banner.listener.OnBannerListener;
 
 import java.util.ArrayList;
 import java.util.List;
-
 /**
  * 测试界面
  */
